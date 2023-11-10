@@ -3,8 +3,8 @@ import Curso from "./Curso";
 
 class Professor extends Pessoa {
     
-    numero_registro: number;
-    cursos: Curso[];
+    private numero_registro: number;
+    private cursos: Curso[];
 
     constructor(
         id: number,

@@ -1,10 +1,15 @@
+import Pessoa from "./Pessoa";
+import Aluno from "./Aluno";
+import Professor from "./Professor";
+import Curso from "./Curso";
+
 class Oferta {
 
     constructor(
         private codigo_oferta: number,
         private curso: string,
         private professor: object,
-        private aluno: [],
+        private aluno: Aluno[],
     ) { }
 
     excluir() {
